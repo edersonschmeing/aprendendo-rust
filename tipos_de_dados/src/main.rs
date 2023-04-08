@@ -8,8 +8,10 @@ fn main() {
     println!("a = {}", a); 
     //a = 456;  //variável a é immutable
 
-    // u = unsigend, 0 to 2^n-1.
-    // i = signed, -2^(n-1) .. 2^(n-1)-1   
+    // u = unsigend, 0 to 2^n-1. 
+    // i = signed, -2^(n-1) .. 2^(n-1)-1  
+    // i8 = signed -2^(8-1) = 128 
+    // i8 = signed -2^(8-1)-1 = 127        
     let mut b: i8 = 0; // -128 to 127.
     println!("b = {} antes", b);
     b = 42;
