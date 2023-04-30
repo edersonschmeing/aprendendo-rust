@@ -38,6 +38,16 @@ fn main() {
     println!("e = {}, tamanho = {} bytes", e, mem::size_of_val(&e));
 
     let g: bool = false; // true;
-    println!("g = {}, tamanho = {} bytes", g, mem::size_of_val(&g)); 
+    println!("g = {}, tamanho = {} bytes", g, mem::size_of_val(&g));
+    
+    
+    /* let a: i32 = 42;
+    let ref_a: &i32 = &a;
+    let b: i32 = *ref_a;
+    println!("{}", std::mem::(a));
+    
+    println!("{}", b);
+   */
+
 
 }
