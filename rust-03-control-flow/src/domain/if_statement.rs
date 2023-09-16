@@ -1,4 +1,8 @@
 pub fn demo_if_statement() {
+
+    println!("");
+    println!("Demo if statement");
+
     let temp = 35;
 
     if temp > 30 {
