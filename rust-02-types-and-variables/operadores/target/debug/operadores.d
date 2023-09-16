@@ -1,0 +1,1 @@
+/home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/operadores/target/debug/operadores: /home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/operadores/src/main.rs
