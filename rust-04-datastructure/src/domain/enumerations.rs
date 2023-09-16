@@ -12,6 +12,10 @@ enum Color {
 }
 
 pub fn demo_enumerations() {
+    
+    println!("");
+    println!("Demo enumerations");
+
     let c = Color::CmykColor {
         cyan: 0,
         magenta: 128,

@@ -20,6 +20,10 @@ impl Line {
 }
 
 pub fn demo_structures() {
+    
+    println!("");
+    println!("Demo structures");
+    
     let p = Point { x: 3.0, y: 4.0 };
     println!("point p is at ({},{})", p.x, p.y);
 
