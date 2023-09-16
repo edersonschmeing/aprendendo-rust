@@ -1,5 +1,5 @@
 [package]
-name = "controle_de_fluxo"
+name = "rust-03-control-flow"
 version = "0.1.0"
 edition = "2021"
 

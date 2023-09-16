@@ -46,7 +46,7 @@ pub fn demo_if_statement() {
     );
 }
 
-
+/* 
 fn demo_declaracoes_if() { 
 
     let temperatura = 35; 
@@ -94,3 +94,4 @@ fn demo_declaracoes_if() {
         }
     );
 }
+*/
