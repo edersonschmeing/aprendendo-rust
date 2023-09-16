@@ -1,1 +1,0 @@
-/home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/tipos_de_dados/target/debug/tipos_de_dados: /home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/tipos_de_dados/src/main.rs

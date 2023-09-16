@@ -1,9 +1,7 @@
-use std::mem;
 
+pub fn demo_operators_bitwise() {
 
-fn operadores_bitwise() {
-
-    println!("Operadores bitwise");
+    println!("\noperators bitwise");
 
     let c = 1 | 2;
     println!("1 | 2 = {}", c); 
@@ -38,10 +36,9 @@ fn operadores_bitwise() {
 
 }
 
+pub fn demo_operators_arithmetic() {
 
-fn operadores_aritmeticos() {
-
-    println!("Operadores aritméticos");
+    println!("\noperators arithmetic");
 
     let mut a = 2 + 3 * 4; // +-*
     println!("{}", a);
@@ -65,9 +62,9 @@ fn operadores_aritmeticos() {
 
 }
 
-fn operadores_logicos() {
+pub fn demo_operators_logical() {
 
-    println!("Operadores lógicos");
+    println!("\noperators logical");
 
     let pi_menor_4 =  std::f64::consts::PI < 4.0; //true
 
@@ -81,15 +78,4 @@ fn operadores_logicos() {
 
     println!("{ }", x_diferente_5);
      
-}
-
-fn main() {
-
-    operadores_aritmeticos();
-
-    operadores_bitwise();
-    
-    operadores_logicos();
-    
-
 }

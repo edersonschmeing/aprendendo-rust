@@ -1,8 +1,9 @@
 
 use std::mem;
 
-fn main() {
-    println!("Tipos e variáveis!");
+pub fn demo_core_data_types() {
+    
+    println!("\nDemo core data types");
 
     let a: u8 = 123; // u = unsigend, 8 bits, 0 - 255.
     println!("a = {}", a); 

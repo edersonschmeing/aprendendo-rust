@@ -1,1 +1,0 @@
-/home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/tipos_e_variaveis/target/debug/tipos_e_variaveis: /home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/tipos_e_variaveis/src/main.rs
