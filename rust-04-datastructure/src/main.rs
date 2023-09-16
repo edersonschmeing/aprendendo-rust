@@ -1,10 +1,15 @@
 //https://devoxi.com/rust-struct-dir-pt/
 
-mod structures;
-use structures::demo;
+mod domain;
+use domain::structures::demo_structures;
+use domain::enumerations::demo_enumerations;
 
 fn main() {
-    
-   demo();
+
+   demo_structures();
+
+   demo_enumerations();
+
+
 
 }
