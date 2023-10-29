@@ -11,5 +11,4 @@ fn main() {
    demo_enumerations();
 
 
-
 }
