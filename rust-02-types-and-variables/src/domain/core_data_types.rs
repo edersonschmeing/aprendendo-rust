@@ -23,6 +23,8 @@ pub fn demo_core_data_types() {
     c = -1; 
     println!("c = {}", c);
 
+    println!("\nendereço de memória de &c = {:p} \n", &c);
+
     // u8, u16, u32, u64, u128, i8, i16, i32, i64 e i128.
 
     //usize isize ocupa o tamanho de acordo com a arquitetura.

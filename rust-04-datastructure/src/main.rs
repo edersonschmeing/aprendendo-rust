@@ -5,6 +5,10 @@ use domain::structures::demo_structures;
 use domain::enumerations::demo_enumerations;
 use domain::tuples::demo_tuples;
 use domain::unions::demo_unions;
+use domain::arrays::demo_arrays;
+use domain::options::demo_options;
+use domain::slices::demo_slices;
+
 
 
 fn main() {
@@ -13,8 +17,14 @@ fn main() {
 
    demo_enumerations();
 
-   demo_tuples();
-
    demo_unions();
 
+   demo_options();
+
+   demo_arrays();
+
+   demo_slices();
+
+   demo_tuples();
+   
 }
