@@ -6,7 +6,7 @@ pub fn demo_arrays() {
     println!("");
     println!("Demo arrays");
 
-    let mut a/*:[i32;5]*/ = [1, 2, 3, 4, 5];
+    let mut a: [i32; 5]/*:[i32;5]*/ = [1, 2, 3, 4, 5];
 
     println!("a has {} elements, first is {}", a.len(), a[0]);
     a[0] = 321;
