@@ -8,6 +8,8 @@ use domain::unions::demo_unions;
 use domain::arrays::demo_arrays;
 use domain::options::demo_options;
 use domain::slices::demo_slices;
+use domain::pattern_matching::demo_pattern_matching;
+
 
 
 
@@ -26,5 +28,10 @@ fn main() {
    demo_slices();
 
    demo_tuples();
+
+   demo_tuples();
    
+   demo_pattern_matching();
+   
+
 }
