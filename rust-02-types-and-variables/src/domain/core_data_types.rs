@@ -44,15 +44,21 @@ pub fn demo_core_data_types() {
     println!("g = {}, tamanho = {} bytes", g, mem::size_of_val(&g));
     
     
-    let ax: i32 = 42;
-    let ref_ax: &i32 = &ax;
-    let bx: i32 = *ref_ax;
+      let mut ax: i32 = 42;
+      {
+        println!("\nendereço de memória de a {:p}", &ax); //mostrando o endereço de memória
+      }
 
-    println!("ref_ax {}", *ref_ax);
-    println!("endereço de a {:p}", &ax); //mostrando o endereço de memória
-    println!("ref_ax {:p}", ref_ax); //mostrando o endereço de memória
-    println!("&ax {}", std::mem::size_of_val(&ax));
-    println!("bx {}", bx);
-   
+      let ref_ax: &mut i32 = &mut ax;
+      let bx: i32 = *ref_ax;
+      *ref_ax = 10;
+      
+      {
+        println!("ref_ax {}", *ref_ax);
+        println!("ref_ax {:p}", ref_ax); //mostrando o endereço de memória
+      }
+      //println!("&ax {}", std::mem::size_of_val(&ax));
+      println!("bx {}", bx);
+    
 
 }
