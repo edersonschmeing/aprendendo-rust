@@ -9,8 +9,7 @@ use domain::arrays::demo_arrays;
 use domain::options::demo_options;
 use domain::slices::demo_slices;
 use domain::pattern_matching::demo_pattern_matching;
-
-
+use domain::generics::demo_generics;
 
 
 fn main() {
@@ -32,6 +31,8 @@ fn main() {
    demo_tuples();
    
    demo_pattern_matching();
+
+   demo_generics();
    
 
 }

@@ -6,5 +6,6 @@ pub mod arrays;
 pub mod options;
 pub mod slices;
 pub mod pattern_matching;
+pub mod generics;
 
 
