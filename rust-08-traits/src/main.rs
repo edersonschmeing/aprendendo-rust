@@ -1,3 +1,8 @@
+mod domain;
+use domain::traits::demo_traits;
+
 fn main() {
-    println!("Hello, world!");
+
+    demo_traits();
+    
 }
