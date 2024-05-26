@@ -1,3 +1,8 @@
+mod domain;
+use domain::characters_and_strings::demo_characters_and_strings;
+
 fn main() {
-    println!("Hello, world!");
+
+    demo_characters_and_strings();
+
 }
