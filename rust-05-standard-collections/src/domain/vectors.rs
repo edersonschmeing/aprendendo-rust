@@ -1,5 +1,3 @@
-use std::mem;
-
 pub fn demo_vectors() {
 
     println!("");
