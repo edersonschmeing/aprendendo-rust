@@ -1,3 +1,8 @@
+mod domain;
+use domain::vectors::demo_vectors;
+
 fn main() {
-    println!("Hello, world!");
+    
+    demo_vectors();
+
 }
