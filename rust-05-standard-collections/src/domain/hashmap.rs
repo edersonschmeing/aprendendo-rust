@@ -1,3 +1,19 @@
+//sequences
+//use std::collections::Vec;
+//use std::collections::VecDeque;
+//use std::collections::LinkedList;
+
+//maps
+ //use std::collections::HashMap;
+ //use std::collections::BTreeMap;
+
+//Sets
+//use std::collections::HashSet;
+//use std::collections::BTreeSet;
+
+//Misc
+// use std::collections::BinaryHeap;
+
 use std::collections::HashMap;
 
 pub fn demo_hashmap() {
