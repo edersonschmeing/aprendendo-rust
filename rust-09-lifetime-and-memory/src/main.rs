@@ -1,3 +1,12 @@
+mod domain;
+use domain::primitive_pointers::demo_primitive_pointers;
+use domain::vector_primitive_pointers::demo_vector_primitive_pointers;
+
+
 fn main() {
-    println!("Hello, world!");
+    demo_primitive_pointers();
+
+    demo_vector_primitive_pointers()
+
 }
+
