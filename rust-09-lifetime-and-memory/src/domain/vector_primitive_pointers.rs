@@ -170,7 +170,7 @@ impl<T> Drop for Vector<T> {
    
 pub fn demo_vector_primitive_pointers() {
     
-    println!("\n Demo Vector");
+    println!("\n Demo Vector Primitive Pointers");
     let mut vec = Vector::new(4); // Cria vetor com capacidade inicial de 4
     
     vec.push(10); // Insere valores
