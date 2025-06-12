@@ -1,1 +1,0 @@
-/home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/hello_cargo_02/target/debug/hello_cargo_02: /home/edersonschmeing/Documents/formacao-academica/projetos-de-estudos/aprendendo-rust/hello_cargo_02/src/main.rs
