@@ -1,7 +1,5 @@
 pub fn demo_primitive_pointers() {
     
-    println!("\n Demo Primitive Pointers");
-
     let x = 42;
     let ptr_x: *const i32 = &x; // ponteiro imutável
 
