@@ -22,11 +22,7 @@ fn how_many(x: i32) -> &'static str {
     }
 }
 
-pub fn demo_pattern_matching() {
-    
-    println!("");
-    println!("Demo Pattern Matching");
-    
+pub fn main() {
     
     for x in 0..13 {
         println!("{}: I have {} oranges", x, how_many(x));
